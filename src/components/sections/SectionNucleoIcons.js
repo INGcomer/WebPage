@@ -21,9 +21,13 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 
+import vision from '../../assets/img/landing/vision.jpg'
+
+import "./sectionNucleoicons.css"
+
 // core components
 
-function SectionNucleoIcons({titulo, descripcion}) {
+function SectionNucleoIcons({titulo, descripcion, img}) {
   return (
     <>
       <div className="section section-dark section-nucleo-icons">
@@ -51,6 +55,9 @@ function SectionNucleoIcons({titulo, descripcion}) {
               >
                 View All Icons
               </Button> */}
+            </Col>
+            <Col lg="6" md="12">
+              <img src={img}/>
             </Col>
             {/* <Col lg="6" md="12">
               <div className="icons-container">

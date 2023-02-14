@@ -31,34 +31,45 @@ function DemoFooter() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
+                  href="https://www.instagram.com/c.ingcomer/"
                   target="_blank"
                 >
-                  Creative Tim
+                  <i class="fa fa-instagram"></i>
+                  @c.ingcomer
                 </a>
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
+                  href="https://www.linkedin.com/company/ingcomer/"
                   target="_blank"
                 >
-                  Blog
+                  <i class="fa fa-linkedin"></i>
+                  INGcomer
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.creative-tim.com/license?ref=pkr-footer"
-                  target="_blank"
+                  href=""
+                  target=""
                 >
-                  Licenses
+                   <i class="fa fa-phone"></i>
+                   +54 299 621 1958
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  target=""
+                >
+                   <i class="fa fa-envelope"></i>
+                   contacto@ingcomer.com
                 </a>
               </li>
             </ul>
           </nav>
           <div className="credits ml-auto">
             <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              © INGcomer {new Date().getFullYear()}
             </span>
           </div>
         </Row>

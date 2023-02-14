@@ -39,12 +39,19 @@ import {
 import ExamplesNavbar from "./IndexNavbar.js";
 import LandingPageHeader from "./LandingPageHeader.js";
 import DemoFooter from "./DemoFooter.js";
+
 import SectionDark from "../sections/SectionDark.js";
 import SectionNucleoIcons from "components/sections/SectionNucleoIcons.js";
+import SectionCarousel from "components/sections/SectionCarousel.js";
 
 import PLACEHOLDER from '../../assets/img/landing/PLACE_HOLDER.jpg'
 
+import vision from '../../assets/img/landing/vision.jpg'
+import mision from '../../assets/img/landing/mision.jpg'
+import valores from '../../assets/img/landing/valores.jpg'
+
 import './logos.css';
+import './servicios.css';
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -118,7 +125,7 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-album-2" />
+                    <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
                     <h4 className="info-title"> Consultoría Comercial </h4>
@@ -128,16 +135,16 @@ function LandingPage() {
                       negocios, estructura de relaciones
                       B2B, marco legal.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Col>
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-bulb-63" />
+                    <i className="nc-icon nc-chart-bar-32" />
                   </div>
                   <div className="description">
                     <h4 className="info-title"> Gestión de Proyectos </h4>
@@ -149,16 +156,16 @@ function LandingPage() {
                       rentabilidad y armado
                       comercial).
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Col>
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-chart-bar-32" />
+                    <i className="nc-icon nc-hat-3" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Capacitaciones</h4>
@@ -166,31 +173,93 @@ function LandingPage() {
                       (Equipos de ventas y captación de
                       partners, Storytelling, Coaching).
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Col>
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
+                    <i className="nc-icon nc-globe" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Captación de Partners</h4>
                     <p>
                       (A comisión o pre-acuerdo).
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Col>
             </Row>
           </Container>
         </div>
+
+        <SectionCarousel/>
+        
+        
+        <div className="section section-dark text-center">
+          <h2 className="title"> Objetivos </h2>
+        </div>
+
+        <section id="Objetivos">
+          
+        <SectionNucleoIcons 
+          titulo="Visión"
+          descripcion="INGcomer aspira a ser la
+          mayor compañía de servicios
+          de consultoría de la región,
+          contribuyendo en un cambio
+          social y de mercado que
+          incremente en gran medida
+          el bienestar económico y
+          social, mediante facilitarles a
+          los grandes proyectos
+          florecer, y a las grandes ideas
+          a explotar su potencial."
+          img={vision}
+        />
+        <SectionNucleoIcons 
+          titulo="Misión"
+          descripcion="Ofrecemos soluciones que
+          permiten capitalizar el 100%
+          del valor que las empresas
+          tienen para aportar,
+          fortaleciendo su propuesta
+          comercial, optimizando la
+          organización y apoyándola
+          en el desarrollo de sus
+          proyectos. También
+          prestamos apoyo a ONG's,
+          con el objeto de que se
+          desplieguen a la altura de
+          empresas privadas"
+          img={mision}
+        />
+        <SectionNucleoIcons 
+          titulo="Valores"
+          descripcion="Nuestro objetivo es crear una
+          cultura organizacional
+          donde se persiga el
+          crecimiento permanente de
+          sus miembros, el aprendizaje
+          constante y el desarrollo de
+          nuevos talentos. Creemos
+          fielmente que con el trabajo
+          necesario, los miembros de
+          ING-comer pueden
+          desarrollarse tanto
+          profesionalmente, como
+          también convertirse en
+          mejores personas."
+          img={valores}
+        />
+        </section>
+        
         <div className="section section-dark text-center">
           <Container>
             <h2 className="title"> El equipo</h2>
@@ -354,64 +423,12 @@ function LandingPage() {
           </Container>
         </div>
 
-        <section id="Objetivos">
-        <SectionNucleoIcons 
-          titulo="Visión"
-          descripcion="INGcomer aspira a ser la
-          mayor compañía de servicios
-          de consultoría de la región,
-          contribuyendo en un cambio
-          social y de mercado que
-          incremente en gran medida
-          el bienestar económico y
-          social, mediante facilitarles a
-          los grandes proyectos
-          florecer, y a las grandes ideas
-          a explotar su potencial."
-        />
-        <SectionNucleoIcons 
-          titulo="Misión"
-          descripcion="Ofrecemos soluciones que
-          permiten capitalizar el 100%
-          del valor que las empresas
-          tienen para aportar,
-          fortaleciendo su propuesta
-          comercial, optimizando la
-          organización y apoyándola
-          en el desarrollo de sus
-          proyectos. También
-          prestamos apoyo a ONG's,
-          con el objeto de que se
-          desplieguen a la altura de
-          empresas privadas"
-        />
-        <SectionNucleoIcons 
-          titulo="Valores"
-          descripcion="Nuestro objetivo es crear una
-          cultura organizacional
-          donde se persiga el
-          crecimiento permanente de
-          sus miembros, el aprendizaje
-          constante y el desarrollo de
-          nuevos talentos. Creemos
-          fielmente que con el trabajo
-          necesario, los miembros de
-          ING-comer pueden
-          desarrollarse tanto
-          profesionalmente, como
-          también convertirse en
-          mejores personas."
-        />
-        </section>
-        
-       
-
         <div className="section landing-section" id="Contacto">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="text-center">Keep in touch?</h2>
-                <Form className="contact-form">
+                <Form className="contact-form" action="mailto:contacto@ingcomer.com" method="post" enctype="text/plain">
                   <Row>
                     <Col md="6">
                       <label>Name</label>
@@ -444,7 +461,7 @@ function LandingPage() {
                   />
                   <Row>
                     <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
+                      <Button className="btn-fill" color="danger" size="lg" type="submit">
                         Send Message
                       </Button>
                     </Col>
