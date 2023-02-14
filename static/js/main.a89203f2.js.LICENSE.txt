@@ -23,8 +23,6 @@
   http://jedwatson.github.io/classnames
 */
 
-/*! nouislider - 14.5.0 - 5/11/2020 */
-
 /**
  * @license React
  * react-dom.production.min.js
@@ -73,5 +71,3 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
-//! moment.js
