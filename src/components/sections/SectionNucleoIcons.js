@@ -23,23 +23,18 @@ import { Button, Container, Row, Col } from "reactstrap";
 
 // core components
 
-function SectionNucleoIcons() {
+function SectionNucleoIcons({titulo, descripcion}) {
   return (
     <>
       <div className="section section-dark section-nucleo-icons">
         <Container>
           <Row>
             <Col lg="6" md="12">
-              <h2 className="title">Nucleo Icons</h2>
+              <h2 className="title">{titulo}</h2>
               <br />
-              <p className="description">
-                Paper Kit comes with 100 custom icons made by our friends from
-                NucleoApp. The official package contains over 2.100 thin icons
-                which are looking great in combination with Paper Kit Make sure
-                you check all of them and use those that you like the most.
-              </p>
+              <p className="description">{descripcion}</p>
               <br />
-              <Button
+              {/* <Button
                 className="btn-round"
                 color="danger"
                 href="/nucleo-icons"
@@ -55,9 +50,9 @@ function SectionNucleoIcons() {
                 target="_blank"
               >
                 View All Icons
-              </Button>
+              </Button> */}
             </Col>
-            <Col lg="6" md="12">
+            {/* <Col lg="6" md="12">
               <div className="icons-container">
                 <i className="nc-icon nc-time-alarm" />
                 <i className="nc-icon nc-atom" />
@@ -75,7 +70,7 @@ function SectionNucleoIcons() {
                 <i className="nc-icon nc-zoom-split" />
                 <i className="nc-icon nc-cloud-download-93" />
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>{" "}

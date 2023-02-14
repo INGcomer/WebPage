@@ -36,9 +36,15 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import ExamplesNavbar from "./IndexNavbar.js";
+import LandingPageHeader from "./LandingPageHeader.js";
+import DemoFooter from "./DemoFooter.js";
+import SectionDark from "../sections/SectionDark.js";
+import SectionNucleoIcons from "components/sections/SectionNucleoIcons.js";
+
+import PLACEHOLDER from '../../assets/img/landing/PLACE_HOLDER.jpg'
+
+import './logos.css';
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -51,14 +57,44 @@ function LandingPage() {
   return (
     <>
       <ExamplesNavbar />
-      <LandingPageHeader />
+      <section  id="Header">
+        <LandingPageHeader/>
+      </section>
       <div className="main">
-        <div className="section text-center">
+      
+      <section id="Nosotros">
+        <SectionDark/>
+      </section>
+        
+        <div className="section logos">
+          <h2> Confian en Nosotros </h2>
+          <div className="imgcontainer"> 
+            <div className="img">
+              <img src={PLACEHOLDER}/>
+            </div>
+            <div className="img">
+              <img src={PLACEHOLDER}/>
+            </div>
+            <div className="img">
+              <img src={PLACEHOLDER}/>
+            </div>
+            <div className="img">
+              <img src={PLACEHOLDER}/>
+            </div>
+            <div className="img">
+              <img src={PLACEHOLDER}/>
+            </div>
+            <div className="img">
+              <img src={PLACEHOLDER}/>
+            </div>
+          </div>
+        </div>
+        <div className="section text-center" id="NuestrosServicios">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Let's talk product</h2>
-                <h5 className="description">
+                <h2 className="title"> Nuestros Servicios </h2>
+                {/* <h5 className="description">
                   This is the paragraph where you can write more details about
                   your product. Keep you user engaged by providing meaningful
                   information. Remember that by this time, the user is curious,
@@ -73,7 +109,7 @@ function LandingPage() {
                   onClick={(e) => e.preventDefault()}
                 >
                   See Details
-                </Button>
+                </Button> */}
               </Col>
             </Row>
             <br />
@@ -85,10 +121,12 @@ function LandingPage() {
                     <i className="nc-icon nc-album-2" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
+                    <h4 className="info-title"> Consultoría Comercial </h4>
                     <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
+                      Armado y validación de propuesta
+                      de valor, desarrollo de plan de
+                      negocios, estructura de relaciones
+                      B2B, marco legal.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -102,10 +140,14 @@ function LandingPage() {
                     <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
+                    <h4 className="info-title"> Gestión de Proyectos </h4>
                     <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient.
+                      relacionados a la ingeniería y
+                      proyectos en general (Armado
+                      de presupuestos, evaluación
+                      financiera, análisis de
+                      rentabilidad y armado
+                      comercial).
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -119,10 +161,10 @@ function LandingPage() {
                     <i className="nc-icon nc-chart-bar-32" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Statistics</h4>
+                    <h4 className="info-title">Capacitaciones</h4>
                     <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
+                      (Equipos de ventas y captación de
+                      partners, Storytelling, Coaching).
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -136,10 +178,9 @@ function LandingPage() {
                     <i className="nc-icon nc-sun-fog-29" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
+                    <h4 className="info-title">Captación de Partners</h4>
                     <p>
-                      Find unique and handmade delightful designs related items
-                      directly from our sellers.
+                      (A comisión o pre-acuerdo).
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -152,7 +193,7 @@ function LandingPage() {
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title"> El equipo</h2>
             <Row>
               <Col md="4">
                 <Card className="card-profile card-plain">
@@ -312,7 +353,60 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <div className="section landing-section">
+
+        <section id="Objetivos">
+        <SectionNucleoIcons 
+          titulo="Visión"
+          descripcion="INGcomer aspira a ser la
+          mayor compañía de servicios
+          de consultoría de la región,
+          contribuyendo en un cambio
+          social y de mercado que
+          incremente en gran medida
+          el bienestar económico y
+          social, mediante facilitarles a
+          los grandes proyectos
+          florecer, y a las grandes ideas
+          a explotar su potencial."
+        />
+        <SectionNucleoIcons 
+          titulo="Misión"
+          descripcion="Ofrecemos soluciones que
+          permiten capitalizar el 100%
+          del valor que las empresas
+          tienen para aportar,
+          fortaleciendo su propuesta
+          comercial, optimizando la
+          organización y apoyándola
+          en el desarrollo de sus
+          proyectos. También
+          prestamos apoyo a ONG's,
+          con el objeto de que se
+          desplieguen a la altura de
+          empresas privadas"
+        />
+        <SectionNucleoIcons 
+          titulo="Valores"
+          descripcion="Nuestro objetivo es crear una
+          cultura organizacional
+          donde se persiga el
+          crecimiento permanente de
+          sus miembros, el aprendizaje
+          constante y el desarrollo de
+          nuevos talentos. Creemos
+          fielmente que con el trabajo
+          necesario, los miembros de
+          ING-comer pueden
+          desarrollarse tanto
+          profesionalmente, como
+          también convertirse en
+          mejores personas."
+        />
+        </section>
+        
+       
+
+        <div className="section landing-section" id="Contacto">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
