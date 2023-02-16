@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/ingcomer.com/static/css/main.b6839a66.css",
-    "main.js": "/ingcomer.com/static/js/main.25a54b7d.js",
-    "static/media/background.jpg": "/ingcomer.com/static/media/background.e92226d1997e844a8ee3.jpg",
-    "static/media/joshua-stannard.jpg": "/ingcomer.com/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
-    "static/media/soroush-karimi.jpg": "/ingcomer.com/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
-    "static/media/federico-beccari.jpg": "/ingcomer.com/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
-    "static/media/vision.jpg": "/ingcomer.com/static/media/vision.7cb9764ed562a82b02d7.jpg",
-    "static/media/joe-gardner-2.jpg": "/ingcomer.com/static/media/joe-gardner-2.09841708956117e93a7b.jpg",
-    "static/media/clem-onojeghuo-3.jpg": "/ingcomer.com/static/media/clem-onojeghuo-3.83003f446b7372176b72.jpg",
-    "static/media/valores.jpg": "/ingcomer.com/static/media/valores.b16fe990d0b3a8b39ba7.jpg",
-    "static/media/erik-lucatero-2.jpg": "/ingcomer.com/static/media/erik-lucatero-2.d09715abe0463c58d6be.jpg",
-    "static/media/nucleo-icons.eot": "/ingcomer.com/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
-    "static/media/nucleo-icons.ttf": "/ingcomer.com/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
-    "static/media/mision.jpg": "/ingcomer.com/static/media/mision.b3521d6c295b06ede8e9.jpg",
-    "static/media/PLACE_HOLDER.jpg": "/ingcomer.com/static/media/PLACE_HOLDER.ca881102f540acdeb962.jpg",
-    "static/media/nucleo-icons.woff": "/ingcomer.com/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
-    "static/media/nucleo-icons.woff2": "/ingcomer.com/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
-    "static/media/logo.png": "/ingcomer.com/static/media/logo.9bfc70995a23dc5f4d4b.png",
-    "index.html": "/ingcomer.com/index.html"
+    "main.css": "/static/css/main.6a84f76a.css",
+    "main.js": "/static/js/main.0918884d.js",
+    "static/media/background.jpg": "/static/media/background.e92226d1997e844a8ee3.jpg",
+    "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
+    "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
+    "static/media/federico-beccari.jpg": "/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
+    "static/media/vision.jpg": "/static/media/vision.7cb9764ed562a82b02d7.jpg",
+    "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.09841708956117e93a7b.jpg",
+    "static/media/clem-onojeghuo-3.jpg": "/static/media/clem-onojeghuo-3.83003f446b7372176b72.jpg",
+    "static/media/valores.jpg": "/static/media/valores.b16fe990d0b3a8b39ba7.jpg",
+    "static/media/erik-lucatero-2.jpg": "/static/media/erik-lucatero-2.d09715abe0463c58d6be.jpg",
+    "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
+    "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
+    "static/media/mision.jpg": "/static/media/mision.b3521d6c295b06ede8e9.jpg",
+    "static/media/PLACE_HOLDER.jpg": "/static/media/PLACE_HOLDER.ca881102f540acdeb962.jpg",
+    "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
+    "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
+    "static/media/logo.png": "/static/media/logo.9bfc70995a23dc5f4d4b.png",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.b6839a66.css",
-    "static/js/main.25a54b7d.js"
+    "static/css/main.6a84f76a.css",
+    "static/js/main.0918884d.js"
   ]
 }
