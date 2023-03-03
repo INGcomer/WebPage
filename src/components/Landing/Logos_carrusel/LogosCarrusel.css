@@ -1,0 +1,29 @@
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin-top: 10vh;
+}
+
+.imgcontainer .img{
+    /* background-color: blue; */
+    max-width: 200px;
+    max-height: 200px;
+    height: 20vw;
+    width: 20vw;
+
+    margin: 20px;
+    margin-top: 0;
+}
+
+.imgcontainer .img img{
+    width: 100%;
+    height: auto;
+}

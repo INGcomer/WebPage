@@ -19,7 +19,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
+import { Container } from "reactstrap";
 
 import Logo from "../../assets/img/landing/logo.png"
 

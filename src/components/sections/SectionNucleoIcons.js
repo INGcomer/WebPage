@@ -19,13 +19,10 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
-import vision from '../../assets/img/landing/vision.jpg'
-
+// STYLES
 import "./sectionNucleoicons.css"
-
-// core components
 
 function SectionNucleoIcons({titulo, descripcion, img}) {
   return (
