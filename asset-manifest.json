@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e08ab6a8.css",
-    "main.js": "/static/js/main.8cd01fba.js",
+    "main.css": "/static/css/main.cfb8b1c7.css",
+    "main.js": "/static/js/main.a7708168.js",
     "static/media/background.jpg": "/static/media/background.e92226d1997e844a8ee3.jpg",
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
     "static/media/federico-beccari.jpg": "/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
     "static/media/vision.jpg": "/static/media/vision.7cb9764ed562a82b02d7.jpg",
+    "static/media/CerebroCurioso.png": "/static/media/CerebroCurioso.122df5e1b746bca7d222.png",
     "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.09841708956117e93a7b.jpg",
     "static/media/clem-onojeghuo-3.jpg": "/static/media/clem-onojeghuo-3.83003f446b7372176b72.jpg",
     "static/media/valores.jpg": "/static/media/valores.b16fe990d0b3a8b39ba7.jpg",
@@ -14,14 +15,16 @@
     "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
     "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
     "static/media/mision.jpg": "/static/media/mision.b3521d6c295b06ede8e9.jpg",
-    "static/media/PLACE_HOLDER.jpg": "/static/media/PLACE_HOLDER.ca881102f540acdeb962.jpg",
+    "static/media/UNCUYO.png": "/static/media/UNCUYO.43559537033683b19f8f.png",
     "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
     "static/media/logo.png": "/static/media/logo.9bfc70995a23dc5f4d4b.png",
+    "static/media/Cameda.png": "/static/media/Cameda.a2ddfb651e0b26b7b6c1.png",
+    "static/media/AArEII.png": "/static/media/AArEII.803d6ff40f3538000cc1.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.e08ab6a8.css",
-    "static/js/main.8cd01fba.js"
+    "static/css/main.cfb8b1c7.css",
+    "static/js/main.a7708168.js"
   ]
 }
