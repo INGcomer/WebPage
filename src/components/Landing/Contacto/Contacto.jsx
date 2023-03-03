@@ -16,11 +16,11 @@ export default function Logos_carrusel() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="8">
-              <h2 className="text-center">Keep in touch?</h2>
+              <h2 className="text-center">Contactanos</h2>
               <Form className="contact-form" action="mailto:contacto@ingcomer.com" method="post" enctype="text/plain">
                 <Row>
                   <Col md="6">
-                    <label>Name</label>
+                    <label>Nombre</label>
                     <InputGroup>
                       <InputGroupAddon addonType="prepend">
                         <InputGroupText>
@@ -42,16 +42,16 @@ export default function Logos_carrusel() {
                     </InputGroup>
                   </Col>
                 </Row>
-                <label>Message</label>
+                <label>Mensaje</label>
                 <Input
-                  placeholder="Tell us your thoughts and feelings..."
+                  placeholder=""
                   type="textarea"
                   rows="4"
                 />
                 <Row>
                   <Col className="ml-auto mr-auto" md="4">
                     <Button className="btn-fill" color="danger" size="lg" type="submit">
-                      Send Message
+                      Enviar mensaje
                     </Button>
                   </Col>
                 </Row>

@@ -2,9 +2,9 @@
 import './LogosCarrusel.css';
 
 // IMGs
-import AArEII from '../../../assets/img/Logos/AArEII.png'
+import AArEII from '../../../assets/img/Logos/new AArEII.png'
 import Cameda from '../../../assets/img/Logos/Cameda.png'
-import CerebroCurioso from '../../../assets/img/Logos/CerebroCurioso.png'
+import CerebroCurioso from '../../../assets/img/Logos/newCerebroCurioso.png'
 import UNCUYO from '../../../assets/img/Logos/UNCUYO.png'
 
 export default function Logos_carrusel() {

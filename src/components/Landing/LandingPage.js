@@ -9,7 +9,7 @@ import SectionDark from "../sections/SectionDark.js";
 import SectionCarousel from "components/sections/SectionCarousel.js";
 
 import LogosCarrusel from "./Logos_carrusel/LogosCarrusel.jsx"
-import NuestrosServicios from "components/NuestrosServicios/NuestrosServicios.jsx";
+import NuestrosServicios from "./NuestrosServicios/NuestrosServicios.jsx";
 import Objetivos from "./Objetivos/Objetivos.jsx";
 import Team from "./Team/Team.jsx";
 import Contacto from "./Contacto/Contacto.jsx"
@@ -62,7 +62,7 @@ function LandingPage() {
           <Contacto/>
         </section>
       </div>
-      
+
       <DemoFooter />
     </>
   );
