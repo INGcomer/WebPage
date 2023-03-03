@@ -59,7 +59,7 @@ function LandingPageHeader() {
             <img src={Logo}/>
             <h1> INGcomer </h1>
             
-            <h3>Somos una empresa
+            <h3> <b> Somos una empresa
               que se dedica tanto
               a la gestión de
               proyectos, como a su
@@ -69,7 +69,7 @@ function LandingPageHeader() {
               nuestros clientes
               alcancen a ser todo
               lo que pueden llegar
-              a ser.</h3>
+              a ser.</b></h3>
             {/* <br /> */}
             {/* <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
