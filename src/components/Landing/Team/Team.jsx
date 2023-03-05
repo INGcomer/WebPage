@@ -10,8 +10,6 @@ import {
     Col
 } from "reactstrap";
 
-import sofie from "assets/img/faces/joe-gardner-2.jpg"
-
 import Alexis from "../../../assets/img/TeamMembers/Alexis.jpg"
 import Augusto from "../../../assets/img/TeamMembers/Augusto.jpg"
 import Lucas from "../../../assets/img/TeamMembers/Lucas.jpg"
