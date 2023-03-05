@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cfb8b1c7.css",
-    "main.js": "/static/js/main.980f4115.js",
-    "static/media/background.jpg": "/static/media/background.e92226d1997e844a8ee3.jpg",
+    "main.js": "/static/js/main.6d87dea9.js",
+    "static/media/background.jpg": "/static/media/background.d5be257c02db41ae820a.jpg",
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
     "static/media/federico-beccari.jpg": "/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
@@ -10,7 +10,6 @@
     "static/media/vision.jpg": "/static/media/vision.7cb9764ed562a82b02d7.jpg",
     "static/media/Alexis.jpg": "/static/media/Alexis.60dd5c045a454d1f3384.jpg",
     "static/media/Santiago.jpg": "/static/media/Santiago.02c0b9dbf0f2c429c45a.jpg",
-    "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.09841708956117e93a7b.jpg",
     "static/media/valores.jpg": "/static/media/valores.b16fe990d0b3a8b39ba7.jpg",
     "static/media/newCerebroCurioso.png": "/static/media/newCerebroCurioso.5e418e8e8e2cbc331024.png",
     "static/media/Tomas.jpg": "/static/media/Tomas.084b1a9d47ec3ebc2c35.jpg",
@@ -27,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.cfb8b1c7.css",
-    "static/js/main.980f4115.js"
+    "static/js/main.6d87dea9.js"
   ]
 }
