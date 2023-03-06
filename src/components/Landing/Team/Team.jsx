@@ -22,11 +22,41 @@ export default function Team() {
             <Container>
                 <h2 className="title"> El equipo</h2>
                 <Row>
-                    <TeamMember name="Alexis Parada" puesto="Co Director Ejecutivo" img={Alexis} linkedin="https://www.linkedin.com/in/alexis-parada-beltran-911a03170/"/>
-                    <TeamMember name="Lucas O'Donnell" puesto="Cofundador y Director Ejecutivo" img={Lucas} linkedin="https://www.linkedin.com/in/lucas-o-donnell-riba-6289791aa/"/>
-                    <TeamMember name="Tomas Garignani" puesto="Cofundador y Director Ejecutivo" img={Tomas} linkedin="https://www.linkedin.com/in/tomas-garignani-a91312219/"/>
-                    <TeamMember name="Santiago Russó" puesto="" img={Santiago} linkedin="https://www.linkedin.com/in/santiagorusso/"/>
-                    <TeamMember name="Augusto Antonelli" puesto="Director de proyecto" img={Augusto} linkedin="https://www.linkedin.com/in/augusto-nevio-antonelli-pol/" />
+                    <TeamMember 
+                        name="Alexis Parada" 
+                        puesto="Co Director Ejecutivo" 
+                        carrera="ING Industrial UM"
+                        img={Alexis} 
+                        linkedin="https://www.linkedin.com/in/alexis-parada-beltran-911a03170/"
+                    />
+                    <TeamMember 
+                        name="Lucas O'Donnell"
+                        puesto="Cofundador y Director Ejecutivo" 
+                        carrera="ING Industrial UNCUYO"
+                        img={Lucas} 
+                        linkedin="https://www.linkedin.com/in/lucas-o-donnell-riba-6289791aa/"
+                    />
+                    <TeamMember 
+                        name="Tomas Garignani" 
+                        puesto="Cofundador y Director Ejecutivo" 
+                        carrera="ING Industrial UNCUYO"
+                        img={Tomas} 
+                        linkedin="https://www.linkedin.com/in/tomas-garignani-a91312219/"
+                    />
+                    <TeamMember 
+                        name="Santiago Russó" 
+                        puesto="" 
+                        carrera="ING Industrial UNCUYO"
+                        img={Santiago} 
+                        linkedin="https://www.linkedin.com/in/santiagorusso/"
+                    />
+                    <TeamMember 
+                        name="Augusto Antonelli" 
+                        puesto="Director de proyecto" 
+                        carrera="ING Quimica UTN"
+                        img={Augusto} 
+                        linkedin="https://www.linkedin.com/in/augusto-nevio-antonelli-pol/" 
+                    />
                 </Row>
             </Container>
         </div>
@@ -35,7 +65,7 @@ export default function Team() {
 
 
 
-function TeamMember({ name, puesto, img, linkedin }) {
+function TeamMember({ name, puesto, img, linkedin, carrera }) {
     return (<Col>
         <Card className="card-profile card-plain">
             <div className="card-avatar">
@@ -44,8 +74,11 @@ function TeamMember({ name, puesto, img, linkedin }) {
             <CardBody>
                 <div className="author">
                     <CardTitle tag="h4">{name}</CardTitle>
-                    {/* <h6 className="card-category">{puesto}</h6> */}
+                    <h6 className="card-category">{puesto}</h6>
                 </div>
+                <p className="card-description text-center">
+                   {carrera}
+                </p>
                 {/* <p className="card-description text-center">
                     A group becomes a team when each member is sure enough of
                     himself and his contribution to praise the skill of the
