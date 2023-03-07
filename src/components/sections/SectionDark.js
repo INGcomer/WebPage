@@ -23,30 +23,21 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 
-function SectionDark() {
+function SectionDark({title, text1, text2}) {
   return (
     <>
       <div className="section section-dark">
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title"> Sobre Nosotros </h2>
+              <h2 className="title"> {title} </h2>
               <p className="description">
                 <b>
-                Desde INGcomer nos enfocamos en explotar su
-                potencial comercial, así poder desarrollar mejores
-                vínculos de mercado, aumentar beneficios, generar
-                nuevas oportunidades de negocios y despejar el
-                camino hacia el crecimiento económico.
+                  {text1}
                 </b>
               </p>
               <p className="description">
-                Aportamos tanto a empresas privadas como a ONG’s, la posibilidad de visibilizar y
-                prestar todo el valor que tengan para ofrecer, a través del desarrollo de su propuesta
-                comercial, de gestionar relaciones estratégicas de mercado, armado de plan de
-                negocios y revalidación de su propuesta de valor.
-                Gracias a nuestro trabajo, diferentes empresas y organizaciones logran el desarrollo y
-                obtención de financiamiento de diferentes proyectos.
+                {text2}
               </p>
             </Col>
           </Row>

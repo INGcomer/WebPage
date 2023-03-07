@@ -25,35 +25,35 @@ export default function Team() {
                     <TeamMember 
                         name="Alexis Parada" 
                         puesto="Co Director Ejecutivo" 
-                        carrera="ING Industrial UM"
+                        carrera="Ingeniería Industrial UM"
                         img={Alexis} 
                         linkedin="https://www.linkedin.com/in/alexis-parada-beltran-911a03170/"
                     />
                     <TeamMember 
                         name="Lucas O'Donnell"
                         puesto="Cofundador y Director Ejecutivo" 
-                        carrera="ING Industrial UNCUYO"
+                        carrera="Ingeniería Industrial UNCUYO"
                         img={Lucas} 
                         linkedin="https://www.linkedin.com/in/lucas-o-donnell-riba-6289791aa/"
                     />
                     <TeamMember 
                         name="Tomas Garignani" 
                         puesto="Cofundador y Director Ejecutivo" 
-                        carrera="ING Industrial UNCUYO"
+                        carrera="Ingeniería Industrial UNCUYO"
                         img={Tomas} 
                         linkedin="https://www.linkedin.com/in/tomas-garignani-a91312219/"
                     />
                     <TeamMember 
                         name="Santiago Russó" 
                         puesto="" 
-                        carrera="ING Industrial UNCUYO"
+                        carrera="Ingeniería Industrial UNCUYO"
                         img={Santiago} 
                         linkedin="https://www.linkedin.com/in/santiagorusso/"
                     />
                     <TeamMember 
                         name="Augusto Antonelli" 
                         puesto="Director de proyecto" 
-                        carrera="ING Quimica UTN"
+                        carrera="Ingeniería Quimica UTN"
                         img={Augusto} 
                         linkedin="https://www.linkedin.com/in/augusto-nevio-antonelli-pol/" 
                     />

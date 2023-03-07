@@ -37,7 +37,20 @@ function LandingPage() {
 
       <div className="main">
         <section id="Nosotros">
-          <SectionDark/>
+          <SectionDark 
+            title="Sobre Nosotros"
+            text1="Desde INGcomer nos enfocamos en explotar su
+            potencial comercial, así poder desarrollar mejores
+            vínculos de mercado, aumentar beneficios, generar
+            nuevas oportunidades de negocios y despejar el
+            camino hacia el crecimiento económico."
+            text2="Aportamos tanto a empresas privadas como a ONG’s, la posibilidad de visibilizar y
+            prestar todo el valor que tengan para ofrecer, a través del desarrollo de su propuesta
+            comercial, de gestionar relaciones estratégicas de mercado, armado de plan de
+            negocios y revalidación de su propuesta de valor.
+            Gracias a nuestro trabajo, diferentes empresas y organizaciones logran el desarrollo y
+            obtención de financiamiento de diferentes proyectos."
+          />
         </section>
 
         <section id="Logos">
@@ -56,6 +69,11 @@ function LandingPage() {
 
         <section id="Team">
           <Team/>
+          {/* <SectionDark 
+            title="experiencia del equipo"
+            text1="algun texto"
+            text2="otro texto"
+          /> */}
         </section>
 
         <section id="Contact">
