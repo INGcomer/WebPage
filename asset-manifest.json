@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfb8b1c7.css",
-    "main.js": "/static/js/main.318c4a2c.js",
+    "main.css": "/static/css/main.ebaba156.css",
+    "main.js": "/static/js/main.a5e4bac9.js",
     "static/media/background.jpg": "/static/media/background.d5be257c02db41ae820a.jpg",
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
@@ -25,7 +25,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.cfb8b1c7.css",
-    "static/js/main.318c4a2c.js"
+    "static/css/main.ebaba156.css",
+    "static/js/main.a5e4bac9.js"
   ]
 }
