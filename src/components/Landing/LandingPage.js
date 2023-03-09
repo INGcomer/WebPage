@@ -17,7 +17,7 @@ import Contacto from "./Contacto/Contacto.jsx"
 
 
 // STYLES
-import './logos.css';
+import './Landing.css';
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");

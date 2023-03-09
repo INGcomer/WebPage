@@ -1,0 +1,28 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
+h1,h2,h3,h4,p{
+    color: black;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+h4{
+    font-weight: bold;
+}
+
+p{
+    font-weight: normal;
+}
+
+@media (max-width: 1250px) {
+    .col {
+        /* background-color: red !important; */
+        margin: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}

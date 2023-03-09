@@ -1,6 +1,23 @@
 #NuestrosServicios h2, #NuestrosServicios h4, #NuestrosServicios p {
     color: black;
 }
+
 .icon {
     color: #720a0b;
+}
+
+#NuestrosServicios h2{
+    font-weight: bolder;
+}
+
+#NuestrosServicios h4 {
+    min-height: 47px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#NuestrosServicios p {
+    margin-top: 20px;
+    /* font-size: 1rem; */
+    font-weight: normal;
 }

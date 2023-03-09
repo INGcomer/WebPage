@@ -42,7 +42,7 @@ export default function NuestrosServicios() {
                 <i className="nc-icon nc-bulb-63" />
               </div>
               <div className="description">
-                <h4 className="info-title"> Consultoría Comercial </h4>
+                <h4 className="info-title"> <b>Consultoría y gestión comercial</b> </h4>
                 <p className="description">
                   Armado y validación de propuesta
                   de valor, desarrollo de plan de
@@ -61,7 +61,7 @@ export default function NuestrosServicios() {
                 <i className="nc-icon nc-chart-bar-32" />
               </div>
               <div className="description">
-                <h4 className="info-title"> Gestión de Proyectos </h4>
+                <h4 className="info-title"> <b>Gestión de Proyectos</b> </h4>
                 <p>
                   relacionados a la ingeniería y
                   proyectos en general (Armado
@@ -82,7 +82,7 @@ export default function NuestrosServicios() {
                 <i className="nc-icon nc-hat-3" />
               </div>
               <div className="description">
-                <h4 className="info-title">Capacitaciones</h4>
+                <h4 className="info-title"> <b>Capacitaciones</b> </h4>
                 <p>
                   (Equipos de ventas y captación de
                   partners, Storytelling, Coaching).
@@ -99,9 +99,9 @@ export default function NuestrosServicios() {
                 <i className="nc-icon nc-globe" />
               </div>
               <div className="description">
-                <h4 className="info-title">Captación de Partners</h4>
+                <h4 className="info-title"> <b>Organización de eventos</b>  </h4>
                 <p>
-                  (A comisión o pre-acuerdo).
+                  Desarrollo de la logística, captación de Auspicios, manejo financiero, contable y legal
                 </p>
                 {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
