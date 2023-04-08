@@ -41,7 +41,7 @@ export default function Objetivos() {
           prestamos apoyo a ONG's,
           con el objeto de que se
           desplieguen a la altura de
-          empresas privadas"
+          empresas privadas."
           img={mision}
         />
         <SectionNucleoIcons 
@@ -55,7 +55,7 @@ export default function Objetivos() {
           nuevos talentos. Creemos
           fielmente que con el trabajo
           necesario, los miembros de
-          ING-comer pueden
+          INGcomer pueden
           desarrollarse tanto
           profesionalmente, como
           también convertirse en

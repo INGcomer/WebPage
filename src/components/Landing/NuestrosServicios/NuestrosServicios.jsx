@@ -63,7 +63,7 @@ export default function NuestrosServicios() {
               <div className="description">
                 <h4 className="info-title"> <b>Gestión de Proyectos</b> </h4>
                 <p>
-                  relacionados a la ingeniería y
+                  Relacionados a la ingeniería y
                   proyectos en general (Armado
                   de presupuestos, evaluación
                   financiera, análisis de
@@ -85,7 +85,7 @@ export default function NuestrosServicios() {
                 <h4 className="info-title"> <b>Capacitaciones</b> </h4>
                 <p>
                   (Equipos de ventas y captación de
-                  partners, Storytelling, Coaching).
+                  partners, Storytelling, Coaching, Metodologías Ágiles).
                 </p>
                 {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
