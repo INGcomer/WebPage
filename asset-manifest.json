@@ -1,11 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd861265.css",
-    "main.js": "/static/js/main.d12c6923.js",
-    "static/media/wisse.png": "/static/media/wisse.5608ee93fa38a498b5ae.png",
-    "static/media/ingcome.png": "/static/media/ingcome.5e6ea03668b28ac65357.png",
-    "static/media/caeii.png": "/static/media/caeii.3b75bd739b08eb5949de.png",
-    "static/media/sisa.png": "/static/media/sisa.0861bc0a00f9b9db8638.png",
+    "main.css": "/static/css/main.0af95db0.css",
+    "main.js": "/static/js/main.9d9817fc.js",
     "static/media/background.jpg": "/static/media/background.d5be257c02db41ae820a.jpg",
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
@@ -33,7 +29,7 @@
     "static/media/I de income.svg": "/static/media/I de income.c93b8ad49c716b761ecb555293512081.svg"
   },
   "entrypoints": [
-    "static/css/main.bd861265.css",
-    "static/js/main.d12c6923.js"
+    "static/css/main.0af95db0.css",
+    "static/js/main.9d9817fc.js"
   ]
 }
