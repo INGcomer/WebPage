@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebaba156.css",
-    "main.js": "/static/js/main.9b602c72.js",
+    "main.css": "/static/css/main.bd861265.css",
+    "main.js": "/static/js/main.d12c6923.js",
+    "static/media/wisse.png": "/static/media/wisse.5608ee93fa38a498b5ae.png",
+    "static/media/ingcome.png": "/static/media/ingcome.5e6ea03668b28ac65357.png",
+    "static/media/caeii.png": "/static/media/caeii.3b75bd739b08eb5949de.png",
+    "static/media/sisa.png": "/static/media/sisa.0861bc0a00f9b9db8638.png",
     "static/media/background.jpg": "/static/media/background.d5be257c02db41ae820a.jpg",
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
@@ -23,10 +27,13 @@
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
     "static/media/logo.png": "/static/media/logo.9bfc70995a23dc5f4d4b.png",
     "static/media/Cameda.png": "/static/media/Cameda.d6b70043558cb1739519.png",
-    "index.html": "/index.html"
+    "static/media/logo.svg": "/static/media/logo.1411e174b4fe8c497fd5e7ed7c3bad39.svg",
+    "index.html": "/index.html",
+    "static/media/I de income gris.svg": "/static/media/I de income gris.e26fb4faf7ad96d47593341ac1048ba3.svg",
+    "static/media/I de income.svg": "/static/media/I de income.c93b8ad49c716b761ecb555293512081.svg"
   },
   "entrypoints": [
-    "static/css/main.ebaba156.css",
-    "static/js/main.9b602c72.js"
+    "static/css/main.bd861265.css",
+    "static/js/main.d12c6923.js"
   ]
 }
